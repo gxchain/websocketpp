@@ -12,6 +12,9 @@ HEAD
   Muzahid Hussain for reporting and related code. #458
 - Feature: Add support for subprotocols in Hybi00. Thank you Lukas Obermann
   for reporting and a patch. #518
+- Bug: Change default listen backlog from 0 to socket_base::max_connections.
+  #549. Thank you derwassi and zwelab for reporting and na1pir for providing
+  access to hardware to debug the issue.
 - Improvement: Better automatic std::chrono feature detection for Visual Studio
 - Improvement: Major refactoring to bundled CMake build system. CMake can now be
   used to build all of the examples and the test suite. Thank you Thijs Wenker
